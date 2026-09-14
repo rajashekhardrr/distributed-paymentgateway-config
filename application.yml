@@ -1,6 +1,6 @@
 spring:
   jpa:
-    hibrenate:
+    hibernate:
       ddl-auto: update
     show-sql: true
     properties:
