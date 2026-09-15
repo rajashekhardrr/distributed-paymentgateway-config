@@ -4,7 +4,7 @@ server:
 app:
   security:
     trust-inbound-headers: false
-    publicRoutes:
+    public-routes:
       - "/v1/auth/**"
       - "/webhook/**"
 
